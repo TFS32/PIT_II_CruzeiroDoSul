@@ -1,38 +1,135 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 	<head>
+		<title>PIT II - Power BI Dashboard - Tiago Saraiva</title>
 		<meta charset="utf-8" />
-		<meta name="Dashboard Power BI" content="Class examples">
-		<meta name="keywords" content="futebol, dados">
-		<link rel="stylesheet" href="estilo.css" type="text/css" />
-		<title>PIT II - Dashboard Power BI</title>
+		<meta name="template" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body>
-		<header>
-			<h1>Projeto Integrador de Competências II</h1>
-            <p ></p> 
-			<h2>Para abrir o Power BI utilize seu email da Universidade Cruzeiro do Sul</h2>
-            <p>exemplo: nome.sobrenome@cs.cruzeirodosul.edu.br</p>
-            <h3>Objetivos:</h3>
-            <p>
-                <ol>
-                    <li>Obter um banco de dados;</li>
-                    <li>Fazer a ingestão de dados num serviço de nuvem;</li>
-                    <li>Criar um acesso local para manusear esses dados;</li>
-                    <li>Carregar os dados em Power BI e criar um dashboard com os dados.</li>
-                </ol>
-            </p>
-            <h4></h4>    
-		</header>
+	<body class="is-preload">
 
-        <header>
-            <iframe title="Tabela Campeonatos Europeus" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=ac78320d-06a9-422c-8495-ea2be79d6e99&autoAuth=true&ctid=38ae2f02-5710-4e12-80bb-83600c3fdf1e" frameborder="0" allowFullScreen="true"></iframe>                 
-        </header>
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/avatar.png" alt="" /></span>
+					<h1 id="logo"><a href="#">PIT II</a></h1>
+					<p>Projeto Integrador Transdiciplinar II<br />
+					Painel de Apresentação</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">Sobre</a></li>
+						<li><a href="#two">Power BI Dashboard</a></li>
+						<li><a href="#three">Informações</a></li>
+						<li><a href="#four">GitHub</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
 
-        <footer>
-			<br>
-				<a href="https://github.com/TFS32/PIT_II_CruzeiroDoSul">Acesse aqui o GitHub desse projeto.</a>
-			</br>
-		</footer>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="image main" data-position="center">
+									<img src="images/banner.jpg" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h2>Sobre</h2>
+										<p>Projeto Integrador Transdiciplinar II<br />
+										Apresentação do Power BI</p>
+									</header>
+									<ol>
+										<li>Obter um banco de dados;</li>
+										<li>Fazer a ingestão de dados em um serviço de nuvem;</li>
+										<li>Criar um acesso local para manusear esses dados;</li>
+										<li>Carregar os dados em Power BI e criar um dashboard com os dados.</li>
+									</ol>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="container">
+									<h3>Dashboard</h3>
+									<p>Para acessar utilize seu e-mail institucional da Universidade Cruzeiro do Sul.
+									       nome.sobrenome@cs.cruzeirodosul.edu.br</p>							
+								</div>
+								<iframe title="Tabela Campeonatos Europeus" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=ac78320d-06a9-422c-8495-ea2be79d6e99&autoAuth=true&ctid=38ae2f02-5710-4e12-80bb-83600c3fdf1e" frameborder="0" allowFullScreen="true"></iframe>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="container">
+									<h3>Informações</h3>
+									<p>O objetivo do trabalho é criar um pipeline de dados, iniciando com o banco de dados, a avaliação do banco, a extração, transformação e carregamento para nuvem, a conexão local para manipular os dados e o painel feito no Power BI.</p>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/pic01.png" alt="" /></a>
+											<div class="inner">
+												<h4>ERD</h4>
+												<p>Diagrama de relacionamento das entidades, para criar, normalizar e relacionar os dados, utilizando-os no painel ao final.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic02.png" alt="" /></a>
+											<div class="inner">
+												<h4>ETL</h4>
+												<p>Extração e tratamento dos dados para que as tabelas atendam aos requisitos do ERD.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.png" alt="" /></a>
+											<div class="inner">
+												<h4>Power BI</h4>
+												<p>Após carregar os dados em nuvem, desenha-se um painel para apresentação amigável das informações.</p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="four">
+								<div class="container">
+									<h3>GitHub</h3>
+									<p><a href="https://github.com/TFS32/PIT_II_CruzeiroDoSul">Acesse o GitHub desse projeto.</a></p>	
+								</div>
+							</section>
+						</div>
+
+						<!-- Footer -->
+							<section id="footer">
+								<div class="container">
+									<ul class="copyright">
+										<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+									</ul>
+								</div>
+							</section>
+		
+			</div>
+		
+				<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>		
+	
 	</body>
-</html>	        
+</html>
